@@ -18,7 +18,6 @@ function includeHTML() {
                     includeHTML();
                 }
             }
-            debugger
             xhttp.open("GET", file, true);
             xhttp.send();
             /*exit the function:*/
@@ -27,6 +26,4 @@ function includeHTML() {
     }
 };
 
-document.addEventListener("DOMContentLoaded", function () {
-    includeHTML();
-});
+includeHTML();
