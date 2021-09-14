@@ -8,3 +8,7 @@
         transform: scale(2);
     }
 }
+
+.hero-section span::after {
+    content: none;
+}
