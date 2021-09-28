@@ -1,0 +1,10 @@
+.mein-menu .navbar .logo {
+    height: 27px;
+    transform: scale(2);
+}
+
+@media only screen and (min-width: 992px) {
+    .mein-menu .navbar .logo {
+        height: 40px;
+    }
+}
