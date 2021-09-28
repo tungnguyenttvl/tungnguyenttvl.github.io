@@ -8,3 +8,12 @@
         height: 40px;
     }
 }
+
+.banner .hero-area .banner-content h2.subtitle {
+    color: #63d4f7;
+}
+
+.banner .hero-area .banner-content h3.head {
+    color: #ffffff;
+    padding: 22px 0px 34px;
+}
