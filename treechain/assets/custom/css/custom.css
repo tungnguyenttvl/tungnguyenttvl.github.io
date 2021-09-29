@@ -17,3 +17,19 @@
     color: #ffffff;
     padding: 22px 0px 34px;
 }
+
+.feature .section-head ul.list li.list-item {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 3.801px 12.432px 38px 0px rgb(207 200 234 / 26%);
+    box-shadow: 3.801px 12.432px 38px 0px rgb(207 200 234 / 26%);
+    padding: 30px 30px 30px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
