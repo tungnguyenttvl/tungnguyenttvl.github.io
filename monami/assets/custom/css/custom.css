@@ -1,0 +1,46 @@
+.mein-menu .navbar .navbar-brand .logo {
+    height: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .mein-menu .navbar .navbar-brand .logo {
+        height: 65px;
+    }
+}
+
+.banner .hero-area .form-group .button-2 {
+    border: none;
+    background: white;
+    -webkit-box-shadow: 0px 7px 13px 0px rgb(41 26 120 / 59%);
+    box-shadow: 0px 7px 13px 0px rgb(41 26 120 / 59%);
+    height: 62px;
+    font-size: 20px;
+    color: #423488;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.testimonial .about-testimonial .client img.one {
+    height: 150px;
+    width: 150px;
+}
+.testimonial .about-testimonial .client img.two {
+    height: 150px;
+    width: 150px;
+}
+.testimonial .about-testimonial .client img.three {
+    height: 150px;
+    width: 150px;
+}
+.testimonial .about-testimonial .client img.four {
+    height: 150px;
+    width: 150px;
+}
+.testimonial .about-testimonial .client img.five {
+    height: 150px;
+    width: 150px;
+}
+.testimonial .about-testimonial .client img.six {
+    height: 150px;
+    width: 150px;
+}
