@@ -1,0 +1,20 @@
+.list-check .list .list-item .check {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #66cc33;
+    -webkit-box-shadow: 0px 4px 13px 0px rgb(139 123 217 / 14%);
+    box-shadow: 0px 4px 13px 0px rgb(139 123 217 / 14%);
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.list-check .list .list-item p.text {
+    color: #33276a;
+}
+
+.list-check .list .list-item {
+    padding-top: 23px;
+    display: block;
+}
