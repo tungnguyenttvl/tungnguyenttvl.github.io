@@ -1,0 +1,11 @@
+#header .navbar-header .logo-header {
+    height: 38px;
+    transform: scale(1.5);
+    transform-origin: left;
+}
+
+@media screen and (min-width: 992px) {
+    #header .navbar-header .logo-header {
+        transform: scale(2);
+    }
+}
