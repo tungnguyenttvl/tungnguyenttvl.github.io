@@ -7,7 +7,7 @@ $('.donut').listtopie({
     drawType: 'round',
     speedDraw: 150,
     hoverColor: '#ffffff',
-    textColor: '#000',
+    textColor: '#00000000',
     strokeColor: '#ffffff',
     textSize: '14',
     hoverAnimate: true,
