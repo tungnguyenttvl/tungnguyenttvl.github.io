@@ -16,9 +16,10 @@ window.onload = function () {
   };
 
   // IDs
-  var donationUser = document.getElementById("donation--user"),
-    donationProgress = document.getElementById("donation--progress"),
-    donationNumber = document.getElementById("donation--number"),
+  var
+    // donationUser = document.getElementById("donation--user"),
+    // donationProgress = document.getElementById("donation--progress"),
+    // donationNumber = document.getElementById("donation--number"),
     donationGoal = document.getElementById("donation--goal"),
     donationStatus = document.getElementById("donation--status"),
     donationAmount = document.getElementById("donation--amount"),
@@ -27,15 +28,15 @@ window.onload = function () {
   // How much percent to reach Goal
   var percent = percentage(User.donationCollect, User.donationGoal);
   // What we have so far to reach Goal
-  donationProgress.setAttribute("aria-valuenow", User.donationCollect);
+  // donationProgress.setAttribute("aria-valuenow", User.donationCollect);
   // Goal
-  donationProgress.setAttribute("aria-valuemax", User.donationGoal);
+  // donationProgress.setAttribute("aria-valuemax", User.donationGoal);
 
   // Default Data
-  donationUser.innerHTML = "Your Progress <span class='green'>" + User.name + "<span>";
-  donationProgress.setAttribute("style", "width:" + percent + "%");
-  donationNumber.setAttribute("style", "left:" + percent + "%");
-  donationNumber.innerHTML = User.donationCollect + "%";
+  // donationUser.innerHTML = "Your Progress <span class='green'>" + User.name + "<span>";
+  // donationProgress.setAttribute("style", "width:" + percent + "%");
+  // donationNumber.setAttribute("style", "left:" + percent + "%");
+  // donationNumber.innerHTML = User.donationCollect + "%";
   // donationGoal.innerHTML = "Goal<br>$" + User.donationGoal;
   // donationStatus.innerHTML = "<i class='fa fa-window-close red'></i> You need <span class='red'>$" + (User.donationGoal - User.donationCollect) + "</span> to reach your Donation Goal";
 

@@ -18,3 +18,20 @@
     padding-top: 23px;
     display: block;
 }
+
+.donut .listtopie-item {
+    display: none;
+}
+.donut {
+    height: auto !important;
+}
+
+.char-custom li {
+    margin-bottom: 1em;
+}
+.char-custom li div {
+    float: left;
+    width: 30px;
+    height: 25px;
+    margin-right: 1em;
+}
