@@ -45,3 +45,17 @@
         width: 400px;
     }
 }
+
+.mein-menu .navbar-brand .logo {
+    height: 32px;
+    transform: scale(2.5);
+}
+
+.mein-menu .navbar-brand .logo.l1,
+.mein-menu.nav-fixed .navbar-brand .logo.l2 {
+    display: none;
+}
+.mein-menu .navbar-brand .logo.l2,
+.mein-menu.nav-fixed .navbar-brand .logo.l1 {
+    display: block;
+}
