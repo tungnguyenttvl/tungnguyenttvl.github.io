@@ -59,3 +59,7 @@
 .mein-menu.nav-fixed .navbar-brand .logo.l1 {
     display: block;
 }
+
+.campaigns .campain-box .thumb .icon {
+    margin-top: 0;
+}
