@@ -32,3 +32,12 @@
     right: -15px;
     width: 88%;
 }
+
+@media (max-width: 991px) {
+    .feature .ster-box:after {
+        transform: translateX(0%);
+        left: -15px;
+        right: 0;
+        width: calc(100% + 30px);
+    }
+}
