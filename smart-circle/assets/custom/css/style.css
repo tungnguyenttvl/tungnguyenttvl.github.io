@@ -1,0 +1,14 @@
+.mein-menu .navbar .navbar-brand .logo {
+    height: 44px;
+    transform: scale(2);
+    transform-origin: left;
+}
+
+.loon ul.list li.list-item .thumb {
+    min-width: 95px;
+}
+
+.started .button-2 {
+    height: auto;
+    line-height: normal;
+}
