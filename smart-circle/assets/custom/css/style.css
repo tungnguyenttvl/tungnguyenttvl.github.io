@@ -1,7 +1,20 @@
 .mein-menu .navbar .navbar-brand .logo {
     height: 44px;
+    transform: scale(3.5);
+    transform-origin: left;
+}
+.mein-menu.nav-fixed .navbar .navbar-brand .logo {
+    display: none;
+}
+
+.mein-menu .navbar .navbar-brand .logo-fix {
+    height: 44px;
     transform: scale(2);
     transform-origin: left;
+    display: none;
+}
+.mein-menu.nav-fixed .navbar .navbar-brand .logo-fix {
+    display: block;
 }
 
 .loon ul.list li.list-item .thumb {
@@ -11,4 +24,11 @@
 .started .button-2 {
     height: auto;
     line-height: normal;
+}
+
+.feature .ster-box:after {
+    transform: translateX(0%);
+    left: auto;
+    right: -15px;
+    width: 88%;
 }
