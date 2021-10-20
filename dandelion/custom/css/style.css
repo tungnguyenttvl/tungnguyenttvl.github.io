@@ -1,0 +1,31 @@
+.header-area .classy-navbar .nav-brand .logo {
+    height: 80px;
+}
+
+.s-list li {
+    min-height: 50px;
+}
+.s-list .s-list-icon {
+    position: absolute;
+    top: 8px;
+    padding: 7px;
+    border: 1px solid;
+    left: 0;
+}
+.s-list .s-list-desc {
+    padding-left: 45px;
+}
+
+.icon-img-box {
+    position: initial;
+    float: left;
+    margin-right: 1em;
+}
+.services-block-four .inner-box {
+    padding-left: 0;
+}
+
+.footer-logo img.logo {
+    width: auto;
+    height: 100px;
+}
