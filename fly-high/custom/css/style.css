@@ -1,0 +1,20 @@
+.header-area .classy-navbar .nav-brand .logo {
+    height: 80px;
+}
+
+.services-column .services-block-four .inner-box {
+    padding-left: 0;
+}
+.services-column .services-block-four .inner-box .icon-img-box {
+    position: initial;
+    float: left;
+    margin-right: 1em;
+}
+
+#section_5-slider-circle .data_cir .data_cir-content ul::before {
+    height: calc(100% + 77px);
+}
+
+#section_5-slider-circle .data_cir:nth-child(2n) .data_cir-content ul::before {
+    margin-top: -95px;
+}
