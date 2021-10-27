@@ -1,0 +1,28 @@
+.header-area .classy-nav-container .classy-navbar .nav-brand .logo {
+    height: 80px;
+}
+
+ul.list-disc > li {
+    list-style: disc;
+    margin-left: 1.5em;
+}
+
+.content-roadmap {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.content-roadmap #section_5-slider-circle .data_cir {
+    margin-bottom: 180px;
+}
+
+.content-roadmap #section_5-slider-circle .data_cir::after {
+    color: #777;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .content-roadmap {
+        padding-top: 260px;
+        padding-bottom: 260px;
+    }
+}
