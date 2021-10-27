@@ -18,3 +18,14 @@
 #section_5-slider-circle .data_cir:nth-child(2n) .data_cir-content ul::before {
     margin-top: -95px;
 }
+
+#section_5-slider-circle .data_cir::after {
+    color: #777;
+    width: 100px;
+}
+
+@media (max-width: 992px) {
+    #section_5-slider-circle .data_cir {
+        margin-bottom: 200px;
+    }
+}
