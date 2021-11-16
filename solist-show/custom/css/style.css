@@ -1,0 +1,20 @@
+.header-area .light .logo-header img {
+    height: 80px;
+}
+.header-area .light .logo-header img.fixed {
+    display: none;
+}
+.header-area.sticky .light .logo-header img.no-fixed {
+    display: none;
+}
+.header-area.sticky .light .logo-header img.fixed {
+    display: block;
+}
+
+.list-style-disc li {
+    list-style: disc;
+}
+
+.list-style-disc {
+    padding-left: 1em;
+}
