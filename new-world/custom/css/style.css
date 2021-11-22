@@ -1,0 +1,35 @@
+.header-area .logo-header img {
+    height: 80px;
+}
+.header-area .logo-header .black-logo {
+}
+
+.header-area .logo-header .light-logo {
+    display: none;
+}
+
+.header-area.sticky .logo-header .black-logo {
+    display: none;
+}
+
+.header-area.sticky .logo-header .light-logo {
+    display: block;
+}
+
+.features .services-column.custom-services .services-block-four .inner-box {
+    padding-left: 0;
+}
+
+.features .services-column.custom-services .services-block-four .icon-img-box {
+    position: initial;
+    float: left;
+    margin-right: 1em;
+}
+
+.custom-list-style li {
+    list-style: disc;
+    margin-bottom: 1em;
+}
+.custom-list-style {
+    padding-left: 1.5em;
+}
