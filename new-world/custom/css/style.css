@@ -33,3 +33,14 @@
 .custom-list-style {
     padding-left: 1.5em;
 }
+
+.custom-btn {
+    height: 70px;
+    line-height: 70px;
+    min-width: 250px;
+    font-size: 1.5em;
+}
+
+#section_5-slider-circle .data_cir::after {
+    color: #222;
+}
